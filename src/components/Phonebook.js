@@ -101,8 +101,8 @@ class Phonebook extends Component {
                         </td>
                     </tr>
                     <tr>
-                        <th>Name</th>
-                        <th>Surname</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
                         <th>Number</th>
                     </tr>
                     </thead>

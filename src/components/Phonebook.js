@@ -68,7 +68,7 @@ class Phonebook extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            contacts: JSON.parse(localStorage.getItem('contacts')),
+            contacts: JSON.parse(localStorage.getItem('contacts')) || [],
 
             // contacts: [
             //     {name: "John", surname: "Doe", number: "+380734562396"},
